@@ -1,0 +1,24 @@
+html, body{
+    margin: 0;
+}
+#fundo {
+    background: url("f.jpg");
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  
+}
+
+#titulo{
+    
+}
+
+#subtitulo{
+   
+}
+
+#a {
+    color: white;
+    border: 1px white solid;
+    padding: 10px 20px 10px 20px;
+}
