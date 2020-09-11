@@ -1,10 +1,27 @@
 body{
-    background-color: #639a67;
+    background-color: #8FBC8F;
     font-family: 'Open Sans Condensed', sans-serif;
 }
 html, body {
     margin: 0;
 }
+header{
+    display: block;
+    height: 80px;
+    width: 100%;
+  
+       
+}
+#logo{
+    margin-top: 0px;
+    margin-left: 5%;
+    padding: 0%;
+    width:200px;
+    height:100px;
+    
+   
+}
+
 #imagem_fundo {
     position: relative;
     background: url("f2.jpg");
@@ -33,13 +50,16 @@ html, body {
     padding-bottom: 10%;
 }
 
-.icones{
-    width: 50px;
-    position: relative;
-    padding-top: 25px;
-    padding-right: 0px;
+
+    .icones{
+        width: 100px;
+        margin-top: 10px;
+        position: relative;
+       
+      
+        
+    }
     
-}
 
 #secaodois{
     
@@ -50,18 +70,34 @@ html, body {
 }
 
 #secao {
-    border-left:#639a67 40px solid;
-    border-right: #639a67 40px solid;
+    
     background-color:#639a67;
     display: flex;      
     
 }
 #secaodois {
-    border:#d9bf77 5px solid;
+    background-color:#92ad66;
+    width: 100%;
+  
+    text-align: center;
     margin-left: 3.1%;
     margin-top: 5px;
     background-color:#639a67;
-    width: 10%;
+
+    padding-right: 11%;
+    padding-left: 11%;
+    width: 71%;
+    font-size: 20px;
+}
+#secaodoiss {
+    background-color:#92ad66;
+    width: 100%;
+  
+    text-align: center;
+    margin-left: 3.1%;
+    margin-top: 5px;
+    background-color:#639a67;
+
     padding-right: 11%;
     padding-left: 11%;
     width: 71%;
@@ -71,31 +107,52 @@ html, body {
     
     padding-right: 3%;
     padding-left: 3%;
-    font-size: 20px;
+    font-size: 17px;
     text-align: center;
     position: relative;
-    border-top: #d9bf77 solid 5px;
-    border-bottom: #d9bf77 solid 5px;
-    border-left: #d9bf77 solid 5px;
+  
 }
 
    
 
 .video{
-    position: relative;
+    display: flex;
     width: 250%;
     height: 100%;
     padding: 0px;
-    border-top: #d9bf77 solid 5px;
-    border-bottom: #d9bf77 solid 5px;
-    border-right: #d9bf77 solid 5px;
-    
-}
-#logo{
-    height: 15%;
-    width: 15%;
+   
 }
 
 #menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 15px;
+    
+  
+}
 
+li {
+
+    float: left;
+    padding: 30px;
+   
+}
+li:hover{
+    background-color: #ddfee4;
+}
+
+#secaotres{
+    background-color:#92ad66;
+    width: 100%;
+  
+    text-align: center;
+    margin-left: 3.1%;
+    margin-top: 5px;
+    background-color:#639a67;
+
+    padding-right: 11%;
+    padding-left: 11%;
+    width: 71%;
+    font-size: 20px;
 }
