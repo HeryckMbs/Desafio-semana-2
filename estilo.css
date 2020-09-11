@@ -1,24 +1,101 @@
-html, body{
+body{
+    background-color: #639a67;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+html, body {
     margin: 0;
 }
-#fundo {
-    background: url("f.jpg");
+#imagem_fundo {
+    position: relative;
+    background: url("f2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     height: 100%;
     width: 100%;
     text-align: center;
-  
+    
+}
+#titulo {
+    color: white;
+    padding-top: 12%;
+    font-size: 70px;
+    line-height: 0.6;
+     
+    
+}
+#subtitulo {
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-top: 3px solid white;
+    text-shadow: 1px 1px  black;
+    padding-bottom: 10%;
 }
 
-#titulo{
+.icones{
+    width: 50px;
+    position: relative;
+    padding-top: 25px;
+    padding-right: 0px;
     
 }
 
-#subtitulo{
-   
+#secaodois{
+    
+    background-color:#92ad66;
+    width: 100%;
+    position: relative;
+    text-align: center;
 }
 
-#a {
-    color: white;
-    border: 1px white solid;
-    padding: 10px 20px 10px 20px;
+#secao {
+    border-left:#639a67 40px solid;
+    border-right: #639a67 40px solid;
+    background-color:#639a67;
+    display: flex;      
+    
+}
+#secaodois {
+    border:#d9bf77 5px solid;
+    margin-left: 3.1%;
+    margin-top: 5px;
+    background-color:#639a67;
+    width: 10%;
+    padding-right: 11%;
+    padding-left: 11%;
+    width: 71%;
+    font-size: 20px;
+}
+.texto{
+    
+    padding-right: 3%;
+    padding-left: 3%;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    border-top: #d9bf77 solid 5px;
+    border-bottom: #d9bf77 solid 5px;
+    border-left: #d9bf77 solid 5px;
+}
+
+   
+
+.video{
+    position: relative;
+    width: 250%;
+    height: 100%;
+    padding: 0px;
+    border-top: #d9bf77 solid 5px;
+    border-bottom: #d9bf77 solid 5px;
+    border-right: #d9bf77 solid 5px;
+    
+}
+#logo{
+    height: 15%;
+    width: 15%;
+}
+
+#menu{
+
 }
